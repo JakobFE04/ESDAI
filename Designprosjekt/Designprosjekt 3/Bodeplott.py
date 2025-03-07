@@ -6,13 +6,13 @@ import pandas as pd
 ## Laster inn ulike csv data filer:
 
 # Frequency (Hz)  Channel 1 Magnitude (dB)  Channel 2 Magnitude (dB)  Channel 2 Phase (deg)
-network_data_1_filter = pd.read_csv("Målinger/Network 1 filter data.csv")
+network_data_1_filter = pd.read_csv("Målinger/Network 1 filter.csv")
 
 # Frequency (Hz)  Channel 1 Magnitude (dB)  Channel 2 Magnitude (dB)  Channel 2 Phase (deg)
-network_data_2_filter = pd.read_csv("Målinger/Network 2 filter data.csv")
+network_data_2_filter = pd.read_csv("Målinger/Network 2 filter.csv")
 
 # Frequency (Hz)  Trace 2 (dBV)  Phase (deg)  Trace 3 (dBV)  Phase (deg).1  Trace 4 (dBV)  Phase (deg).2
-spectrum_data = pd.read_csv("Målinger/Spectrum original trace 3 1 filter trace 2 2 filter trace 4 Data.csv")
+spectrum_data = pd.read_csv("Målinger/Spectrum funker trace 2 original trace 3 1 filter trace 4 2 filter.csv")
 
 
 ## Print liste for å teste at data blir lest rett:
@@ -51,9 +51,12 @@ ax2.legend()
 
 fig3 = plt.figure(3)
 ax3 = fig3.add_subplot()
-ax3.magnitude_spectrum(spectrum_data['Trace 3 (dBV)'],spectrum_data['Frequency (Hz)'],scale='dB', label="Original")
-ax3.magnitude_spectrum(spectrum_data['Trace 2 (dBV)'],spectrum_data['Frequency (Hz)'],scale='dB', label="1 filter")
-ax3.magnitude_spectrum(spectrum_data['Trace 4 (dBV)'],spectrum_data['Frequency (Hz)'],scale='dB', label="2 filter")
+# ax3.magnitude_spectrum(spectrum_data['Trace 2 (dBV)'],spectrum_data['Frequency (Hz)'],scale='dB', label="Original")
+# ax3.magnitude_spectrum(spectrum_data['Trace 3 (dBV)'],spectrum_data['Frequency (Hz)'],scale='dB', label="1 filter")
+# ax3.magnitude_spectrum(spectrum_data['Trace 4 (dBV)'],spectrum_data['Frequency (Hz)'],scale='dB', label="2 filter")
+ax3.plot(spectrum_data['Frequency (Hz)'],spectrum_data['Trace 2 (dBV)'], label="Original")
+ax3.plot(spectrum_data['Frequency (Hz)'],spectrum_data['Trace 3 (dBV)'], label="1 filter")
+ax3.plot(spectrum_data['Frequency (Hz)'],spectrum_data['Trace 4 (dBV)'], label="2 filter")
 ax3.vlines(1938.1,-60,60,colors='red',linestyles='dashed',label="Resonance Frequency")
 # ax3.set_xscale('log')
 ax3.set_title("Magnitude Spectrum")

@@ -20,4 +20,13 @@ $$
 
 Realisering og test:
 
-Fikk ikke helt korrekt frekvens for resonansfrekvensen når jeg målte med 68nF, så la til 1,47nF til kretsen som så ut til å gi en god filtrering.
+Fikk ikke helt korrekt frekvens for resonansfrekvensen når jeg målte med 68nF, så la til 3.3nF, 4,7nF og 470pF. Dette kommer nok av spolen som har stor usikkerhet.
+
+
+![[Pasted image 20250307114304.png]]
+
+
+![[Bodeplot dB.png]]
+![[Phase Bode plot.png]]
+![[Magnitude Spectrum.png]]
+
