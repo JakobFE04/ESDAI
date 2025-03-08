@@ -17,16 +17,28 @@ $$
  \frac{1}{\omega C}=\omega L \implies C=\frac{1}{L\omega^2}=\frac{1}{0.100\cdot(2\cdot \pi \cdot1938.1)^2}=67.4nF
  \end{equation} 
 $$
+$$
+ \begin{equation} 
+ f = \frac{1}{2\pi\sqrt{ LC }} 
+ \end{equation} 
+$$
 
 Realisering og test:
 
-Fikk ikke helt korrekt frekvens for resonansfrekvensen når jeg målte med 68nF, så la til 3.3nF, 4,7nF og 470pF. Dette kommer nok av spolen som har stor usikkerhet.
+Fikk ikke helt korrekt frekvens for resonansfrekvensen når jeg målte med 68nF, så la til 3.3nF, 4,7nF og 470pF i parallell som gir en kapasitans på ca 76,5nF. Dette kommer nok av spolen som har stor usikkerhet. Ved å snu
 
 
-![[Pasted image 20250307114304.png]]
+![[måling screenshot.png]]
 
 
 ![[Bodeplot dB.png]]
 ![[Phase Bode plot.png]]
 ![[Magnitude Spectrum.png]]
 
+
+
+dB bode plott 2 filter -56.9 dB
+phase bode plott 2 filter -32.6 degrees
+
+dB bode plott 1 filter  -29.9 dB
+phase bode plott 1 filter -33.6 degrees
