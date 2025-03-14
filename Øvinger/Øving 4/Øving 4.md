@@ -44,7 +44,7 @@ Dempingen går mot 1 desto høyere frekvensen blir, og fase forskyvningen går m
 
 # Oppgave 2)
 
-![[2 a.png]]
+![[ESDA/ESDAI/Øvinger/Øving 4/2 a.png]]
 Den komplekse amplituden vil jo variere med frekvens så jeg tegnet en ved en vilkårlig høyere frekvens. Den vil bli negativt faseforskyvd siden kretsen er kapasativ og spenningen over kondensatoren vil minke jo høyere frekvens signalet har, altså et lavpass filter.
 
 ## b)
@@ -57,7 +57,7 @@ $$
  V_{2}=2.8e^{-j\pi/4}e^{4000\pi t} =2.8\cos\left( 4000\pi t-\frac{\pi}{4} \right)
  \end{equation} 
 $$
-![[2 c.png]]
+![[ESDA/ESDAI/Øvinger/Øving 4/2 c.png]]
 
 Ikke så lett å lese av bilde i b) så litt off. Mer reelt utrykk for $V_{2}$ er:
 $$
