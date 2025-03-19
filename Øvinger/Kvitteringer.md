@@ -5,3 +5,7 @@
 37c5985be82741c4b1f94781f7cb2d85 Øving 4
 
 eea1fd5a38314b49a152ca60f1af48c6 Øving 5
+
+2ce13b52aed548bba6a94b929ef37fec Øving 6 (for sent levert bruh)
+
+8c2317f46cbb4cbb9ce1b3393a1328b2 Øving 7

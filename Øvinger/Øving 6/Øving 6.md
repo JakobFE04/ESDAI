@@ -93,47 +93,60 @@ $$
 
 # Oppgave 4)
 ### Figur 6)
-![[4 fig 6.png]]$$
+![[4 fig 6.png]]
+
+$$
  \begin{equation} 
  V_{G}=\frac{V_{DD}}{R_{G 1}+R_{G 2}}\cdot R_{G 2}=\frac{14}{4M}\cdot 1M =3.5V
  \end{equation} 
-$$$$
+$$
+$$
 V_{S}=R_{S}\cdot I_{D}
 $$
+
 $$
  \begin{equation} 
  V_{GS}=V_{G}-V_{S} =V_{G}-R_{S}\cdot I_{D}
  \end{equation} 
 $$
 
+
 $$
  \begin{equation} 
   i_{D}=\frac{K}{2}(V_{GS}-V_{T})^2 = \frac{K}{2}(V_{G}-R_{S}\cdot I_{D}-V_{T})^2
  \end{equation} 
 $$
+
 Løser for $i_{D}$ og får at:
+
 $$
  \begin{equation} 
  i_{D} = 4mA \ \ \ \text{\&} \ \ \ i_{D}=6.25mA
  \end{equation} 
 $$
+
 $$
  \begin{equation} 
 V_{DS}=V_{DD}-V_{D}-V_{S}=V_{DD}-i_{D}\cdot (R_{D}+R_{S})
  \end{equation} 
 $$
+
 $$
  \begin{equation} 
  V_{DS}= 4V  \ \ | \ i_{D}=4mA \ \ \ \ \text{\&} \ \ \ \ V_{DS}=-1.625V \ \ | \ i_{D}=6.25mA
  \end{equation} 
 $$
+
 -1.625V vil ikke stemme så dermed må $i_{D}$ være 4mA;
+
 $$
  \begin{equation} 
   V_{GS}= 500\cdot 4m = 1.5V
  \end{equation} 
 $$
+
 Og får dermed at:
+
 $$
  \begin{equation} 
   \text{Arbeidspunkt}\begin{cases}
@@ -144,48 +157,61 @@ I_{D}=4mA
  \end{equation} 
 $$
 
+
 ### Figur 7)
 ![[Fig 7.png]]
+
 $$
  \begin{equation} 
  V_{G}=\frac{V_{DD}}{R_{1}+R_{2}}\cdot R_{2}= \frac{216}{31}V
  \end{equation} 
-$$$$
+$$
+
+$$
 V_{S}=R_{S}\cdot I_{D}
 $$
+
 $$
  \begin{equation} 
  V_{GS}=V_{G}-V_{S} =V_{G}-R_{S}\cdot I_{D}
  \end{equation} 
 $$
 
+
 $$
  \begin{equation} 
   i_{D}=\frac{K}{2}(V_{GS}-V_{T})^2 = \frac{K}{2}(V_{G}-R_{S}\cdot I_{D}-V_{T})^2
  \end{equation} 
 $$
+
 Løser for $i_{D}$ og får at:
+
 $$
  \begin{equation} 
  i_{D} = 7.94mA \ \ \ \text{\&} \ \ \ i_{D}=17.92mA
  \end{equation} 
 $$
+
 $$
  \begin{equation} 
 V_{DS}=V_{DD}-V_{D}-V_{S}=V_{DD}-i_{D}\cdot (R_{D}+R_{S})
  \end{equation} 
 $$
+
 $$
  \begin{equation} 
  V_{DS}= 8.03V  \ \ | \ i_{D}=7.94mA \ \ \ \ \text{\&} \ \ \ \ V_{DS}=3.04V \ \ | \ i_{D}=17.92mA
  \end{equation} 
 $$
+
 $$
  \begin{equation} 
  V_{GS}= 2.99V \ \ |\ 7.94mA \ \ \ \& \ \ \ \ V_{GS}=-1.99V \ \ | \ 17.92mA
  \end{equation} 
 $$
+
 Altså får vi (avrundet litt):
+
 $$
  \begin{equation} 
   \text{Arbeidspunkt}\begin{cases}
@@ -200,21 +226,25 @@ $$
 ![[Fig 8.png]]
 
 Siden $I_{G}=0$ så vil det ikke være spenning over $R_{F}$, så da får vi at:
+
 $$
  \begin{equation} 
  V_{D}=V_{G} \implies V_{DS}=V_{GS}
  \end{equation} 
 $$
+
 $$
  \begin{equation} 
  V_{DS}= V_{DD}-I_{D}(R_{D}+R_{S})
  \end{equation} 
 $$
+
 $$
  \begin{equation} 
  I_{D}=\frac{K}{2}(V_{GS}-V_{T}) ^2=\frac{K}{2}(V_{DD}-I_{D}(R_{D}+R_{S})-V_{T})^2
  \end{equation} 
 $$
+
 Løser vi for $I_{D}$ får vi:
 
 $$
@@ -222,23 +252,28 @@ $$
  i_{D} = 4mA \ \ \ \text{\&} \ \ \ i_{D}=4.69mA
  \end{equation} 
 $$
+
 $$
  \begin{equation} 
 V_{DS}=V_{DD}-V_{D}-V_{S}=V_{DD}-i_{D}\cdot (R_{D}+R_{S})
  \end{equation} 
 $$
+
 $$
  \begin{equation} 
  V_{DS}= 3V  \ \ | \ i_{D}=4mA \ \ \ \ \text{\&} \ \ \ \ V_{DS}=0.91V \ \ | \ i_{D}=4.69mA
  \end{equation} 
 $$
+
 $$
  \begin{equation} 
  V_{GS}= 3V  \ \ | \ i_{D}=4mA \ \ \ \ \text{\&} \ \ \ \ V_{GS}=0.91V \ \ | \ i_{D}=4.69mA
  \end{equation} 
 $$
 
+
 Altså får vi:
+
 $$
  \begin{equation} 
   \text{Arbeidspunkt}\begin{cases}
