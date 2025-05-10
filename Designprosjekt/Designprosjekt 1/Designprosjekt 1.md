@@ -41,9 +41,3 @@ A_{2}=\frac{2163}{10000+2163+26300}=0.05624
 $$$$
 A_{2}[dB]=20\cdot \log(0.05624)=-24.99973dB
 $$Ligger dermed gått innenfor systemkravene for systemet og kan begynne å teste.
-
-$$ 
- \begin{equation} 
- 2+2=5 
- \end{equation} 
- $$
